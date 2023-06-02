@@ -17,6 +17,5 @@ public class Main {
                 System.out.println("Ежемесячный платеж: ");
                 System.out.println( service.calculate(1_000_000,36, 9.99F));
 
-
     }
 }
