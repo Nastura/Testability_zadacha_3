@@ -19,7 +19,7 @@ public class CreditPaymentService {
         float mp;
 
         // 1 Этап рассчета:
-        mesPercent = percent / 100 / time;  // рассчитываем месячную процентную ставку
+        mesPercent = percent / 100 / 12;  // рассчитываем месячную процентную ставку
 
         mp = (mesPercent + 1);                  // для удобства вывела это в отдельную переменную.
 
